@@ -1,0 +1,5 @@
+module cscRecHitValidation = CSCRecHitValidation {
+  InputTag inputObjects = csc2DRecHits
+  string outputFile = "CSCRecHitValidation.root"
+}
+
