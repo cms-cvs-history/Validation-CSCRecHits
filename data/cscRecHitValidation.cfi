@@ -1,5 +1,6 @@
 module cscRecHitValidation = CSCRecHitValidation {
-  InputTag inputObjects = csc2DRecHits
+  InputTag recHitLabel = csc2DRecHits
+  InputTag segmentLabel = cscSegments
   string outputFile = "CSCRecHitValidation.root"
 }
 
