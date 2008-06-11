@@ -1,7 +1,0 @@
-module cscRecHitValidation = CSCRecHitValidation {
-  InputTag simHitsTag = mix:g4SimHitsMuonCSCHits
-  InputTag recHitLabel = csc2DRecHits
-  InputTag segmentLabel = cscSegments
-  string outputFile = "CSCRecHitValidation.root"
-}
-
